@@ -92,8 +92,8 @@ module.exports = {
 				amount: 10000000000000000,
 				fee: 0,
 				timestamp: 0,
-				recipientId: genesisAccount.address(bytes),
-				senderId: sender.address(bytes),
+				recipientId: genesisAccount.addressto.String(),
+				senderId: sender.address.toString(),
 				senderPublicKey: sender.keypair.publicKey
 			};
 
