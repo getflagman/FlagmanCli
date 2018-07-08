@@ -13,7 +13,9 @@
     }
   },
   "peers": {
-    "list": [],
+    "list": [
+          {"ip": "54.152.219.163", "port": 8196}    
+    ],
     "blackList": [],
     "options": {
       "timeout": 20000
