@@ -5,7 +5,7 @@ A command line interface for bootstrapping and managing [Flagman](https://github
 ## Installation
 
 ```
-npm install -g flg-cli
+npm install -g FlagmanCli
 npm install -g n
 n stable
 ```
@@ -13,7 +13,7 @@ n stable
 ## Usage
 
 ```
-./bin/flg-cli --help
+./bin/FlagmanCli --help
 
   Usage: flg-cli [options] [command]
 
@@ -57,7 +57,7 @@ n stable
 
     -h, --help         Output usage information
     -V, --version      Output the version number
-    -H, --host <host>  Specify the hostname or ip of the node, default: 127.0.0.1
-    -P, --port <port>  Specify the port of the node, default: 4096
+    -H, --host <host>  Specify the hostname or ip of the node, default: 54.152.219.163
+    -P, --port <port>  Specify the port of the node, default: 8196
     -M, --main         Specify the mainnet, default: false
 ```
